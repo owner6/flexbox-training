@@ -1,11 +1,17 @@
 .item {
-	height: 100px;
+	/*height: 100px;*/
 	width: 100px;
 	background: red;
 	margin: 5px;
+	align-self: stretch;
 }
 
 .container {
 	display: flex;
-	flex-direction: column;
+	justify-content: center;
+	height: 400px;
+}
+
+.first {
+	order: -1;
 }
