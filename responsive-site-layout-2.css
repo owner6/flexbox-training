@@ -80,7 +80,6 @@ h1 {
 
 .grid {
 	display: flex;
-	
 	justify-content: space-between;
 }
 
@@ -89,6 +88,7 @@ h1 {
 	flex-basis: (33.33% -  30px * 2/3);
 	display: flex;
 	flex-wrap: wrap;
+	padding-right: 10px;
 	
 }
 
@@ -124,8 +124,39 @@ h1 {
 	.header-right {
 		display: none;
 	}
+	.grid-item {
+		flex-wrap: nowrap;
+		flex-basis: 100%;
+	}
+
+	.grid-img {
+		flex: 0 0 auto;
+	}
+
 	.grid {
 		flex-wrap: wrap;
 	}
-	
+
+	.grid-item:nth-child(even) .grid-img {
+		margin: 0 0px 0 30px;
+		order: 2;
+	}
+
+	.grid-item:nth-child(odd) .grid-img {
+		margin: 0 30px 0 0px;
+	}
+
+	.flex-cont {
+		flex: 1 1 auto;
+	}
+
+	.grid-title {
+		text-align: left;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.grid-img {
+		display: none;
+	}
 }
