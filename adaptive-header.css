@@ -1,3 +1,7 @@
+* {
+	margin: 0px;
+}
+
 a {
 	color: #fff;
 	text-decoration: none;
@@ -34,4 +38,30 @@ a {
 
 .header_button {
 	cursor: pointer;
+}
+
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 630px;
+	width: 150px;
+	border-right: 1px solid #D7D8DD;
+	background-color: #FCFDFD;
+	padding: 10px; 
+}
+
+.sidebar a {
+	color: #689CD2;
+}
+
+.sidebar_item {
+	cursor: pointer;
+	padding: 8px;
+	font-size: 18px;
+}
+
+.sidebar_item:hover {
+	background-color: #EEF3F4;
+	border-radius: 4px;
 }
