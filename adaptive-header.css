@@ -198,7 +198,7 @@ body {
 	display: block;
 }
 .card .card_summary {
-	padding: 5% 5% 3% 5%;
+	padding: 5% 5% 15% 5%;
 }
 .card .card_header {
 	position: relative;
@@ -224,4 +224,32 @@ body {
 }
 .card .card_title h3 {
 	font-size: 1.2em;
+	line-height: 1.2;
+	padding: 0 3.5%;
+	margin: 5px;
+}
+.card .card_meta {
+	max-height: 0;
+	overflow: hidden;
+	color: #666;
+	font-size: .78em;
+	text-transform: uppercase;
+	position: absolute;
+	bottom: 5%;
+	padding: 0% 5%;
+	transition-property: max-height;
+	transition-duration: 0.4s;
+	transition-timing-function: ease-in-out;
+}
+
+.card:hover, card:focus {
+	background: white;
+	box-shadow: rgba (0, 0, 0, 0.45) 0px 0px 20px 0px;
+}
+
+.card:hover .card_title, .card:focus .card_title {
+	background: rgba(104, 156, 210, 0.95);
+} 
+.card:hover .card_meta, .card:focus card_met {
+	max-height: 1em;
 }
