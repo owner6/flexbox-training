@@ -281,3 +281,11 @@ form {
 	box-shadow: 0 0 2em rgba(0, 0, 0, 0.2);
 	border-radius: 0.25em;
 }
+input {
+	padding: 0.5em;
+	font-size: 0.875em;
+	background: #f4f4f4;
+	border: 1px solid #ccc;
+	border-width: 1px 1px 1px 0;
+	border-radius: 0;
+}
