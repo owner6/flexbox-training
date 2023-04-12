@@ -274,3 +274,15 @@ body {
 	height: 100vh;
 	margin: 0 auto;
 }
+
+h2 {
+	text-align: center;
+}
+
+form {
+	flex-basis: 70vh;
+	padding: 2em;
+	background: #fff;
+	box-shadow: 0 0 2em rgba(0, 0, 0, 0.2);
+	border-radius: 0.25em;
+}
