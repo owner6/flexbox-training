@@ -43,3 +43,20 @@ h1{
 	width: 130px;
 	height: 50px;
 }
+.nav{
+	margin: -5px 0 0 -5px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.nav-item{
+	background: #000;
+	width: 130px;
+	height: 50px;
+	font-size: 1.5rem;
+	color: #fff;
+	text-decoration: none;
+	margin: 5px 0 0 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
