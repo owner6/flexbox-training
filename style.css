@@ -308,3 +308,9 @@ input:focus {
 	text-shadow: 0 1px 0 #fff;
 	line-height: 1;
 }
+.form-field input {
+	flex-grow: 1;
+}
+.input-right input .multi-input input:last-child {
+	border-radius: 0 0.25em 0.25em 0;
+}
