@@ -254,19 +254,16 @@ body {
 	transition-duration: 0.4s;
 	transition-timing-function: ease-in-out;
 }
-
 .card:hover, card:focus {
 	background: white;
 	box-shadow: rgba (0, 0, 0, 0.45) 0px 0px 20px 0px;
 }
-
 .card:hover .card_title, .card:focus .card_title {
 	background: rgba(104, 156, 210, 0.95);
 } 
 .card:hover .card_meta, .card:focus card_met {
 	max-height: 1em;
 }
-
 .form-container {
 	display: flex;
 	justify-content: center;
@@ -274,11 +271,9 @@ body {
 	height: 100vh;
 	margin: 0 auto;
 }
-
 h2 {
 	text-align: center;
 }
-
 form {
 	flex-basis: 70vh;
 	padding: 2em;
